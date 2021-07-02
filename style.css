@@ -1,0 +1,69 @@
+.table {
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr 30%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+}
+
+.title6 {
+    grid-row: 1;
+    grid-area: 2/1/3/4;
+
+    display: grid;
+    justify-content: center;
+}
+
+.input1 {
+    width: 277px;
+    height: 60px;
+    background-color: #E5E5E5;
+    grid-area: 3/2/4/3;
+
+}
+
+.input2 {
+    width: 277px;
+    height: 60px;
+    background-color: #E5E5E5;
+    grid-area: 3/3/4/4;
+
+}
+
+.input3 {
+    width: 277px;
+    height: 60px;
+    background-color: #E5E5E5;
+    grid-area: 4/2/5/3;
+
+}
+
+.people {
+    grid-area: 4/3/5/4;
+}
+
+.input4 {
+    width: 277px;
+    height: 60px;
+    background-color: #E5E5E5;
+    grid-area: 5/2/6/3;
+
+}
+
+.time {
+    grid-area: 5/3/6/4;
+}
+
+.button3 {
+    grid-area: 6/2/7/4;
+    width: 563px;
+    height: 60px;
+    background-color: #E8C300;
+    border: 1px solid #E8C300;
+    color: white;
+
+}
+
+select {
+    width: 277px;
+    height: 60px;
+    background-color: #E5E5E5;
+}
